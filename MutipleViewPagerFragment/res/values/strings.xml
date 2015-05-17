@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">MutipleViewPagerFragment</string>
+
+    
+    
+    
+    
+    <string name="tab1">tab1</string>
+    <string name="tab2">tab2</string>
+    <string name="tab3">tab3</string>
+    <string name="tab4">tab4</string>
+    
+    <string name="subTab1">子tab1</string>
+    <string name="subTab2">子tab2</string>
+    <string name="subTab3">子tab3</string>
+    
+    
+    <string name="tab1Fragment">Tab1Fragment</string>
+    <string name="tab2Fragment">Tab2Fragment</string>
+    <string name="tab3Fragment">Tab3Fragment</string>
+    <string name="tab1sub1">Tab1Sub1Fragment</string>
+    <string name="tab1sub2">Tab1Sub2Fragment</string>
+    <string name="tab2sub1">Tab2Sub1Fragment</string>
+    <string name="tab2sub2">Tab2Sub2Fragment</string>
+    <string name="tab2sub3">Tab2Sub3Fragment</string>
+    <string name="tab3sub1">Tab3Sub1Fragment</string>
+    
+    
+    
+</resources>

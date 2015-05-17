@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="@string/tab2Fragment"/>
+    
+    <RadioGroup
+        android:id="@+id/tab2RadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="9dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@drawable/c_options_left_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/subTab1"
+            android:textColor="@color/tab_word_sub_bg" />
+
+        <RadioButton
+            android:id="@+id/radBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@drawable/c_options_right_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/subTab2"
+            android:textColor="@color/tab_word_sub_bg" />
+        <RadioButton
+            android:id="@+id/radBtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@drawable/c_options_right_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/subTab3"
+            android:textColor="@color/tab_word_sub_bg" />
+    </RadioGroup>
+<android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerBottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </android.support.v4.view.ViewPager>
+</LinearLayout>
